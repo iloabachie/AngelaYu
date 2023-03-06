@@ -12,7 +12,7 @@ day = today.day
 
 # print(day, month, year)
 
-load_dotenv("D:/documents/Python lessons/AngelaYu/day36-trading/.env")
+load_dotenv(".env")
 
 # print(os.getenv('NEWS_API_KEY'), os.getenv('PATH'))
 

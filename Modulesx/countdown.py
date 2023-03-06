@@ -43,7 +43,6 @@ def loading3(t):
         print('\nLoading Complete!')
 
 
-
 if __name__ == '__main__':
     countdown(5)
     loading1(20)  
