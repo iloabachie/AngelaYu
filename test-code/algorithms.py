@@ -98,3 +98,24 @@ print(*range(5))
 # Using for loop
 for item in my_gen():
     print(item)
+    
+    
+    
+    
+
+
+
+class TreeNode:
+    def __init__(self, key, left=None, right=None):
+        self.key = key
+        self.left = left
+        self.right = right
+        
+node2 = TreeNode(3, 5, 6)
+node3 = TreeNode(4)
+
+node0 = TreeNode(8, node2, node3)
+
+tree = node0
+
+print(tree.key, tree.left.key, tree.right.key, tree.left.left, tree.right.right)
